@@ -14,7 +14,7 @@ import java.util.List;
 @RequestMapping("/order")
 public class OrderController {
 
-    private OrderApplication orderApplication;
+    private final OrderApplication orderApplication;
 
     public OrderController(
             @Autowired OrderApplication orderApplication
